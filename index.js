@@ -30,6 +30,7 @@ function johnLennonFacts(facts) {
     console.log(++i);
     list.push(factslist);
   }
+<<<<<<< HEAD
   return list;
 }
 
@@ -41,4 +42,17 @@ function iLoveTheBeatles(n) {
     console.log(n++);
   } while (n < 15);
   return beatles;
+=======
+}
+
+function iLovetheBeatles(n) {
+  var list = [];
+  let i = 0;
+  
+  do {
+    list += "I love the Beatles!";
+    console.log(++I);
+  } while (i < 15);
+ return list; 
+>>>>>>> d4746efbdb0467f1b17833364f677101b2679300
 }
